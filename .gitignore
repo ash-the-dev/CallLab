@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+calls/
+recordings/
+*.mp3
+*.wav
+*.ogg
+.calllab_state.json
+*.zip
+calllab-call-artifacts-*.zip

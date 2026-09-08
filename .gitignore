@@ -8,9 +8,16 @@ __pycache__/
 .DS_Store
 calls/
 recordings/
-*.mp3
 *.wav
 *.ogg
-.calllab_state.json
+*.mp3
 *.zip
-calllab-call-artifacts-*.zip
+.calllab_state.json
+
+# Curated assessment evidence (explicitly tracked)
+!submitted_calls/
+!submitted_calls/**/
+!submitted_calls/**/*.mp3
+!submitted_calls/**/*.txt
+!evaluation/
+!evaluation/**

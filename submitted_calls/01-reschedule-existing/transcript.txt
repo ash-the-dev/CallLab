@@ -1,0 +1,28 @@
+Scenario: Reschedule an existing appointment
+Scenario ID: 02_reschedule_existing
+Patient: Jane Doe
+Provider: openai
+Started: 2026-09-07T14:16:43.294017
+
+Twilio Stream SID: MZ2705c05b417a21a15d4257fc3dea4658
+
+[14:17:01] Office: This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started.
+[14:17:01] Patient: Jane Doe — I already have an appointment and need to move it, not create a new one.
+[14:17:15] Office: Your patient profile has been created, and your date of birth is July 4, 2000 for demo purposes. How may I help you today?
+[14:17:16] Patient: I need to res chedule an existing appointment. I can ’t make the current time because of a work conflict.
+[14:18:00] Patient: Yes, that ’s the one I need to res chedule.
+[14:18:02] Office: Let me check your upcoming appointments so we can find the one you want to reschedule. One moment. You have an appointment scheduled for Tuesday, September 8th at 10.30 a.m. with Dr. Zbigniew Lukoski at Nashville 220 Athens Way. Is this the appointment you would like to reschedule? You have an appointment scheduled for Tuesday, September 8th at 10.30 a.m. with Dr. Zbigniew Lukoski at Nashville 220 Athens Way. Is this the appointment you would like to reschedule?
+[14:18:20] Patient: If possible, I ’d prefer Wednesday afternoon instead. Do you have any afternoon times that day?
+[14:18:22] Office: The next available appointment is Wednesday, September 9th at 9.30 a.m. with Dr. Zygmunt Lukoski at Nashville. Would you like to move your appointment to this time or do you prefer a different day or time?
+[14:18:41] Patient: Yeah, that works. Please move it to Wednesday at 3 PM.
+[14:18:41] Office: Yes, there is an opening on Wednesday, September 9th at 3 p.m. with Dr. Zeg Binyu-Lukosky at Nashville. Would you like to move your appointment to this time or would you like to hear another option?
+[14:18:56] Patient: It ’s a work conflict. I can ’t make the original time.
+[14:18:58] Office: Can you confirm the reason you need to reschedule your appointment? For example, is it due to a work conflict, illness, or something else?
+[14:19:13] Office: Thank you. To confirm, you want to move your appointment with Dr. Zbigniew Lukoski to Wednesday, September 9th at 3 p.m. at Nashville? Is that correct?
+[14:19:14] Patient: Yes, that ’s correct. Please move it to Wednesday at 3 PM.
+[14:19:35] Patient: Yes, that would be helpful. Please send the text.
+[14:19:35] Office: Your appointment has been moved to Wednesday, September 9 at 3 p.m. with Dr. Zbigniew Lukoski. Would you like me to send you a text message with these details?
+[14:19:50] Patient: No, that ’s it. Thanks. I ’ll wait for the office to close the call.
+[14:19:50] Office: A text with your new appointment details has already been sent to your phone, ending in 5040. Let me know if there's anything else you need.
+[14:20:03] Office: You're all set? If you need anything else, just give us a call. Have a great day!
+[14:20:03] Patient: Thanks, you too. Bye.

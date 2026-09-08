@@ -1,0 +1,17 @@
+Scenario: Nurse / clinical escalation
+Scenario ID: 14_nurse_escalation
+Patient: Jane Doe
+Provider: openai
+Started: 2026-09-07T14:54:29.690826
+
+Twilio Stream SID: MZ6d6e9acb07fdfc17ebcf3088126fb7e3
+
+[14:54:46] Patient: Jane Doe.
+[14:54:48] Office: This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started.
+[14:55:00] Office: Your patient profile is set up, and your date of birth is July 4, 2000, for demo purposes. How may I help you today?
+[14:55:01] Patient: I have a non -em ergency question about some new swelling and soreness at the site after a recent injection or procedure. I was hoping to speak with a nurse or clinical staff member about it.
+[14:55:27] Office: I will let the clinical team know about your swelling and soreness after the recent procedure. They will review your case and a nurse or staff member will follow up with you as soon as possible.
+[14:55:38] Office: Your concern has been documented for the clinical team. A nurse or staff member will reach out to you soon to discuss your symptoms and next steps. Is there anything else I can help you with right now?
+[14:55:38] Patient: No, that's it.
+[14:55:48] Office: You're all set. The clinic team will be in touch soon. Have a good day.
+[14:55:48] Patient: Thanks, you too. Bye.

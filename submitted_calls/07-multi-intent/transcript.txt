@@ -1,0 +1,30 @@
+Scenario: Multi-intent scheduling and insurance
+Scenario ID: 12_multi_intent
+Patient: Jane Doe
+Provider: openai
+Started: 2026-09-07T14:49:21.321373
+
+Twilio Stream SID: MZ987132ea0a0ae611983fe08fd5a8af55
+
+[14:49:38] Patient: Jane Doe.
+[14:49:40] Office: This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started.
+[14:49:53] Patient: I was hoping to schedule a routine visit. I've had headaches for a couple weeks.
+[14:49:53] Office: Your patient profile is set up, and your date of birth is July 4, 2000 for demo purposes. How may I help you today?
+[14:50:12] Office: You mentioned headaches for a couple of weeks and wanting a routine visit. Just to confirm, are you looking to schedule a general office visit to discuss your headaches and overall health?
+[14:50:12] Patient: Yeah, just a general visit to talk through the headaches.
+[14:50:26] Patient: Yeah, anyone ’s fine.
+[14:50:27] Office: Do you have a specific provider you'd like to see, or are you open to the next available?
+[14:50:34] Patient: Okay.
+[14:50:35] Office: Let me check the schedule for the next available office visit.
+[14:50:49] Patient: Yeah, I ’ll keep it. Also, do you accept Moda Health insurance?
+[14:50:49] Office: You already have an office visit scheduled for Wednesday, September 9th at 9.30 a.m. Would you like to keep this appointment, reschedule it, or cancel it?
+[14:51:07] Office: VividPoint Orthopedics accepts most insurance plans, but I can double check your specific coverage. Would you like me to update or review your insurance details on file?
+[14:51:08] Patient: Yeah, please review it. My plan is Moda Health.
+[14:51:27] Patient: Yes, that ’s fine. You can send the text and I ’ll upload the photos.
+[14:51:27] Office: There is no insurance on file for you right now. Would you like to receive a text message at your number ending 5040 to upload photos of your Moda Health insurance card?
+[14:51:45] Patient: Okay, I ’ll work on that.
+[14:51:46] Office: The text link has been sent to your number ending 5040. Please upload photos of your insurance card when you're ready. Let me know if you have any questions about the form.
+[14:52:03] Patient: No pe, that ’s everything.
+[14:52:04] Office: We've noted your request to add MoDA health insurance. Our team will follow up with you soon to help complete the update. Is there anything else I can help you with today?
+[14:52:13] Patient: Thanks, you too. Bye.
+[14:52:13] Office: You're all set. If you need anything else, just give us a call. Take care.

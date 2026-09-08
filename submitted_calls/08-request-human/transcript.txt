@@ -1,0 +1,14 @@
+Scenario: Request a human representative
+Scenario ID: 13_request_human
+Patient: Jane Doe
+Provider: openai
+Started: 2026-09-07T14:52:49.955651
+
+Twilio Stream SID: MZf08bd01598e87fc10d87184afd98bc3f
+
+[14:53:08] Office: This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started.
+[14:53:09] Patient: Hi, I ’d be more comfortable speaking with a person directly. Could you connect me with a human representative?
+[14:53:33] Office: Understood you want to speak with someone else, but I have the same level of access as the supervisor and can assist with all your needs. If you still prefer to speak with a human representative, I can connect you to our clinic support team. Would you like me to transfer you now?
+[14:53:34] Patient: Yes, please transfer me.
+[14:53:44] Office: Transferring you now. Thank you.
+[14:53:45] Patient: Bye.

@@ -1,0 +1,16 @@
+Scenario: Medication refill request
+Scenario ID: 04_medication_refill
+Patient: Jane Doe
+Provider: openai
+Started: 2026-09-07T14:24:11.135127
+
+Twilio Stream SID: MZ4c16a94eb63143addc7093419732f105
+
+[14:24:27] Patient: Jane Doe.
+[14:24:29] Office: This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name.
+[14:24:40] Patient: I need a medication refill, just a routine one.
+[14:24:41] Office: Your patient profile is set up and your date of birth is July 4, 2000 for this demo. How may I help you today?
+[14:24:57] Patient: Yeah, I ’d like to speak with the support team.
+[14:24:57] Office: I don't see any medications on your chart that I can refill right now. If you think this is a mistake or need more help, let me know if you'd like to speak with our support team.
+[14:25:11] Patient: Alright, goodbye.
+[14:25:12] Office: Transferring you now. Thank you. Hello. You've reached the Pretty Good AI test line. Goodbye.

@@ -7,7 +7,18 @@ It places a live Twilio call, streams bidirectional audio through Twilio Media
 Streams, and speaks as a scenario-driven patient (Jane Doe) using **OpenAI
 Realtime** by default. Gemini Live remains an optional fallback. Scenarios are
 YAML files; the harness cycles them automatically or you can pick one by hand.
-Transcripts and diagnostics land under `calls/` and stay gitignored.
+
+## Submission
+
+See [SUBMISSION.md](SUBMISSION.md) for:
+
+- selected call recordings and transcripts
+- evaluation findings
+- Loom walkthrough / debugging links
+
+Raw per-run artifacts under `calls/` stay local and gitignored. Curated
+assessment evidence under `submitted_calls/` and `evaluation/` is committed for
+reviewers.
 
 ## Why it exists
 
@@ -16,7 +27,7 @@ bug discovery, and iterative AI-assisted debugging. CallLab answers that with:
 
 - Real telephone interaction (not mocked chat)
 - Reusable patient scenarios instead of hardcoded scripts
-- Local transcript + diagnostics per run
+- Local transcript + diagnostics per run, plus curated submission evidence
 - Easy reruns of the same scenario
 - Coverage for scheduling, reschedule, cancel, refill, hours/location/insurance,
   unclear requests, change-of-mind, corrections, interruption, multi-intent,
@@ -130,7 +141,10 @@ OpenAI path uses CallLab-owned office turn detection, explicit
 | `run.py` | Starts server, tunnel, and Twilio call |
 | `src/` | FastAPI media server, scenario loader, providers |
 | `scenarios/` | YAML patient scenarios (01–15) |
-| `calls/` | Local transcripts/diagnostics (gitignored) |
+| `calls/` | Local raw transcripts/diagnostics (gitignored) |
+| `submitted_calls/` | Curated MP3 + transcript evidence for assessment |
+| `evaluation/` | Findings report and call manifest |
+| `SUBMISSION.md` | Reviewer entry point |
 
 See `ARCHITECTURE.md` for the audio path and turn-taking design, and
-`BUGS.md` for known issues found during live testing.
+`BUGS.md` for CallLab implementation notes (not PGAI findings).

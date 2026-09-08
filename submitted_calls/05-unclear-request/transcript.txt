@@ -1,0 +1,18 @@
+Scenario: Unclear request clarification
+Scenario ID: 08_unclear_request
+Patient: Jane Doe
+Provider: openai
+Started: 2026-09-07T14:33:34.718676
+
+Twilio Stream SID: MZ0a9b6926ebc755c1cdd091285f3f922c
+
+[14:33:52] Patient: Jane Doe.
+[14:33:52] Office: This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile today? I just need your first and last name to get started.
+[14:34:05] Office: Your patient profile is set up, and your date of birth is July 4, 2000 for demo purposes. How many it'll be today?
+[14:34:07] Patient: Hi, yeah, I was hoping to come in for a visit. Just a routine appointment.
+[14:34:21] Office: Do you have a specific provider you'd like to see, or are you open to the next available?
+[14:34:21] Patient: Anyone ’s fine. Next available works.
+[14:34:38] Office: The next available is Tuesday, September 8th. I have a 10.30 a.m. slot with Dr. Zegnew-Lukosky. Would you like to book that time?
+[14:34:38] Patient: Yeah, that works. I ’ll take it.
+[14:34:52] Patient: No pe, that's everything.
+[14:34:52] Office: You're all set for Tuesday, September 8th at 10.30 a.m. with Dr. Z.V. Newlikowski. Is there anything else I can help you with today?

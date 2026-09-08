@@ -1,7 +1,20 @@
 # Architecture
 
-CallLab is a live phone harness: Twilio carries the call, CallLab bridges
-media, and an AI voice provider speaks as a YAML-driven patient.
+## Architecture Summary
+
+Twilio places a real outbound call and streams bidirectional μ-law (PCMU)
+audio over Twilio Media Streams into CallLab’s FastAPI WebSocket bridge.
+CallLab forwards that audio to OpenAI Realtime (Gemini Live remains an optional
+fallback), which speaks as Jane Doe using a prompt built from a YAML scenario.
+Scenarios stay data—goals, facts, and behavior rules—so patient behavior can be
+reused and cycled without hardcoding dialogue.
+
+Turn boundaries are owned by CallLab rather than left entirely to the model:
+office-speech silence/grace detection, explicit `input_audio_buffer.commit`,
+response IDs, and Twilio playback marks keep Jane from answering stale turns or
+talking over the office. This real-phone design was chosen over text mocks so
+evaluation stress-tests latency, barge-in, transfers, and progressive disclosure
+under the same conditions a live patient call would face.
 
 ## Audio path
 
@@ -21,10 +34,13 @@ Scenario-driven Jane Doe patient
 
 ```
 Call_Lab/
-  run.py        orchestration: server + tunnel + Twilio call
-  src/          media server, config, scenario prompt builder, providers
-  scenarios/    versioned YAML scenarios (data only)
-  calls/        per-run transcripts + diagnostics (gitignored)
+  run.py             orchestration: server + tunnel + Twilio call
+  src/               media server, config, scenario prompt builder, providers
+  scenarios/         versioned YAML scenarios (data only)
+  calls/             raw per-run transcripts + diagnostics (gitignored)
+  submitted_calls/   curated MP3 + transcript evidence (tracked)
+  evaluation/        findings report + call manifest (tracked)
+  SUBMISSION.md      reviewer entry point
 ```
 
 - **`run.py`** starts the voice server, creates a temporary Cloudflare tunnel,

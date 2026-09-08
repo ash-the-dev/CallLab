@@ -1,0 +1,23 @@
+Scenario: Insurance acceptance question
+Scenario ID: 07_insurance_question
+Patient: Jane Doe
+Provider: openai
+Started: 2026-09-07T14:30:45.537287
+
+Twilio Stream SID: MZ5cc70d0b277619f960e1ccdc6f065bee
+
+[14:31:03] Office: This call may be recorded for quality and training purposes. Para español, oprima el 2. Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started.
+[14:31:04] Patient: Hi — before we set anything up, I just need to know if you accept my insurance.
+[14:31:16] Patient: Moda Health.
+[14:31:17] Office: I can help with that. May I know which insurance provider you have?
+[14:31:31] Office: Thanks for sharing your insurance provider. To check if Moda Health is accepted, I'll need to create a demo patient profile for you. Would you like to continue? I just need your first and last name.
+[14:31:31] Patient: Yeah, that ’s fine. It ’s Jane Doe.
+[14:31:49] Patient: I ’m just trying to find out if you accept Moda Health, or what I should do next if you can ’t confirm that here.
+[14:31:49] Office: Your patient profile has been created and your date of birth is set as July 4, 2000 for demo purposes. How may I help you today?
+[14:32:05] Office: I'll connect you to our insurance team to confirm if Moda Health is accepted and bag you on next steps. One moment.
+[14:32:15] Office: To check if Moda Health is accepted, I need the member ID from your insurance card. Could you please provide your Moda Health member ID number?
+[14:32:17] Patient: Okay, let me check what I have and see if I can provide that. I don ’t have that with me right now. I ’m not sure of the number.
+[14:32:39] Patient: No, that ’s it.
+[14:32:41] Office: No problem. Without the member ID, I can't confirm if Moda Health is accepted right now. If you find your card later, you can call back or bring it to your appointment. Is there anything else I can help you with today?
+[14:32:49] Office: All right, if you have your insurance details later, just let us know. Have a good day.
+[14:32:49] Patient: Thanks, you too. Bye.

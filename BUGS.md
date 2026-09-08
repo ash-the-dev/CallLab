@@ -1,7 +1,10 @@
 # Bugs
 
-Open issues and known gaps found during live PGAI assessment calls. Add a new
-section when something breaks; move it to **Fixed** after it ships.
+This file tracks CallLab implementation bugs and engineering notes.
+PGAI evaluation findings are in `evaluation/PGAI_Evaluation_Findings.md`.
+
+Open issues and known gaps in the CallLab harness itself. Add a new section
+when something breaks; move it to **Fixed** after it ships.
 
 ## Open
 

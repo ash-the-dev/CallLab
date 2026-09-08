@@ -1,0 +1,32 @@
+Scenario: Natural interruption handling
+Scenario ID: 11_interruption
+Patient: Jane Doe
+Provider: openai
+Started: 2026-09-07T14:43:14.894089
+
+Twilio Stream SID: MZa52b49ba0b507c24875c57471e9a5313
+
+[14:43:31] Patient: Jane Doe.
+[14:43:32] Office: This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started.
+[14:43:46] Office: Your patient profile is set up and your date of birth is July 4, 2000, for this demo. How may I help you today?
+[14:43:46] Patient: I need to res chedule an appointment I have on file. Wednesday doesn ’t work for me.
+[14:44:08] Patient: Sorry — actually Wednesday won't work for me. I need to move it.
+[14:44:08] Office: You have an appointment scheduled for Tuesday, September 8th at 3.30pm with Dr. Z. Bignew-Lukosky at Nashville, 220 Athens Way. Is this the appointment you want to reschedule?
+[14:44:32] Patient: Yeah, that ’s the one I need to move.
+[14:44:32] Office: No problem. Just to confirm, you want to reschedule your appointment on Tuesday, September 8th at 3.30 p.m. with Dr. Zig Bignew-Lukosky at Nashville, 220 Athens Way, is that correct?
+[14:44:53] Office: The next available slot is Wednesday, September 9th at 9.30 a.m. with Dr. Zignu-Lukosky in Nashville. Would you like to move your appointment to that time or do you prefer a different time or day?
+[14:44:53] Patient: Yes, that works. Let ’s move it to Wednesday, September 9 th at 9: 30 AM.
+[14:45:05] Patient: My schedule that day just doesn ’t work, so I needed to move it.
+[14:45:05] Office: Can you tell me the reason you need to reschedule your appointment?
+[14:45:23] Patient: Yes, that ’s correct. Wednesday, September 9 th at 9: 30 AM works for me.
+[14:45:23] Office: Thank you. To confirm, you want to move your appointment to Wednesday, September 9th at 9.30 a.m. with Dr. Zbigniew Lukoski in Nashville, is that correct?
+[14:45:43] Patient: Okay.
+[14:45:44] Office: Your appointment will be moved to Wednesday, September 9th at 930 a.m. with Dr. Zbigniew Lukoski in Nashville. One moment while I update your booking.
+[14:45:49] Office: Your appointment is being updated now. Please hold for just a moment while I finish rescheduling it.
+[14:45:50] Patient: Sure.
+[14:46:02] Patient: No, that ’s fine. I don ’t need a text.
+[14:46:03] Office: Your appointment is now set for Wednesday, September 9th at 9.30 a.m. with Dr. Z. Bignew-Lukosky in Nashville. Would you like me to send you a text message with these details?
+[14:46:13] Office: you're all set. If you need anything else or want to make more changes, just let me know.
+[14:46:14] Patient: No pe, that ’s it.
+[14:46:20] Patient: Thanks, you too. Bye.
+[14:46:21] Office: but have a great day

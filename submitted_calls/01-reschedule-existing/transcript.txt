@@ -4,8 +4,6 @@ Patient: Jane Doe
 Provider: openai
 Started: 2026-09-07T14:16:43.294017
 
-Twilio Stream SID: MZ2705c05b417a21a15d4257fc3dea4658
-
 [14:17:01] Office: This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started.
 [14:17:01] Patient: Jane Doe — I already have an appointment and need to move it, not create a new one.
 [14:17:15] Office: Your patient profile has been created, and your date of birth is July 4, 2000 for demo purposes. How may I help you today?

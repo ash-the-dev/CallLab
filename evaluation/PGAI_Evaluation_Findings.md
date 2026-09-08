@@ -31,7 +31,9 @@ no longer present.
 The patient was still connected and responded immediately after the office
 announced that it was ending the call.
 
-### Reproduction
+### Observed failure path
+
+Steps that produce the failure mode seen in the linked evidence:
 
 1. Call the office agent with an existing patient profile.
 2. Ask which office/location handles the patient's appointment.
@@ -41,6 +43,9 @@ announced that it was ending the call.
 5. The agent asks whether the caller is still there and announces that it will
    end the call.
 6. The patient is still present and responds, but the task has already failed.
+
+This report documents the failure captured in the linked call evidence. It does
+not claim a multi-run reproducibility study beyond that observation.
 
 ### Observed behavior
 
@@ -96,11 +101,11 @@ unnecessary turn-taking ambiguity.
 
 ---
 
-## Observation — Supplemental insurance workflow when member ID is missing
+## Observation — Insurance workflow when member ID is missing
 
 **Severity:** Observation / robustness  
 **Evidence:** `submitted_calls/04-insurance-question/recording.mp3`,
-`transcript.txt`
+`transcript.txt` (from the curated primary set)
 
 ### Summary
 

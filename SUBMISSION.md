@@ -17,7 +17,7 @@ https://github.com/ash-the-dev/CallLab
 
 ## Walkthrough Loom
 
-[TO BE ADDED]
+https://www.loom.com/share/69da982fb5aa4c2eb365d4dda4e95338
 
 ## AI Debugging Loom
 

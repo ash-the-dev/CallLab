@@ -21,7 +21,7 @@ https://www.loom.com/share/69da982fb5aa4c2eb365d4dda4e95338
 
 ## AI Debugging Loom
 
-[TO BE ADDED]
+https://www.loom.com/share/79ca5e0b6ea44831b7f8a63e720a8f80
 
 ## Evaluation Findings
 
